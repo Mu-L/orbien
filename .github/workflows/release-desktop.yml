@@ -47,6 +47,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v5
 
+      - name: Prefer crates.io
+        uses: ./.github/actions/prefer-crates-io
+
       - name: Setup Rust
         uses: dtolnay/rust-toolchain@master
         with:
