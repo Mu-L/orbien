@@ -53,7 +53,7 @@ A lightweight, high-performance, and secure intranet penetration tool with a bin
 - **Transport protocols**: TCP, KCP, WebSocket, QUIC, with TCP multiplexing support
 - **Security**: Token-based tunnel authentication, TLS and mTLS encryption; HTTPS supports transparent forwarding and client-side TLS termination
 - **Cross-platform**: Windows, Linux, macOS, FreeBSD, and more
-- **Operations**: lightweight Web admin UI and cross-platform desktop client for easy configuration and monitoring
+- **Operations**: lightweight server-side Web admin UI and cross-platform native desktop client; supports config hot-reload and ACME automatic certificate issuance
 
 ## Quick Start
 
